@@ -1,0 +1,189 @@
+/* Our default values set as CSS variables */
+:root {
+    --color-bg: #E8E4F1;
+    --color-text-main: #635A87;
+    --color-primary: #635A87;
+    --wrapper-height: 87vh;
+    --image-max-width: 300px;
+    --image-margin: 3rem;
+  }
+
+
+img {
+    border-radius: 15px;
+    object-fit: cover;
+  }
+  
+  body {
+    font-family: HK Grotesk;
+    background-color: var(--color-bg);
+  }
+  
+  .tablestuff{
+    background-image: url("https://zupimages.net/up/24/10/gt9r.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Page structure */
+  .wrapper {
+    min-height: var(--wrapper-height);
+    display: grid;
+    place-items: center;
+    margin: 0 1rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .buttontxt{
+    color: #635A87;
+    font-family: "Namdhinggo", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .txt{
+    color: #635A87;
+    font-family: "Namdhinggo", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  /* Very light scaling for our illustration */
+  .title {
+    color: #22223B;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: regular;
+    font-style: normal;
+    line-height: 105%;
+    margin: 0;
+  }
+  
+  .funnyThings{
+    color: #635A87;
+    font-family: "Namdhinggo", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 5%;
+  }
+  
+  .mainText{
+    color: #635A87;
+    font-family: "Namdhinggo", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-indent: 50px;
+    text-align: justify;
+  }
+  
+  .mainText2{
+    color: #635A87;
+    font-family: "Namdhinggo", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-indent: 50px;
+    text-align: justify;
+  }
+  
+  .homebtn{
+    padding-top: 5%;
+  }
+  
+  /* Very light scaling for our illustration */
+  .illustration {
+    max-width: 100%;
+    max-height: var(--image-max-width);
+    margin-top: var(--image-margin);
+  }
+  
+  /* Instructions */
+  .instructions {
+    margin: 1rem auto 0;
+  }
+  
+  /* Button - Add it from the README instructions */
+  button,
+  input {
+    font-family: inherit;
+    font-size: 100%;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    transition: 500ms;
+  }
+  
+  /* Subheading */
+  h2 {
+    color: #2800ff;
+  }
+  
+  /* Interactive image */
+  .illustration:active {
+    transform: translateY(5px);
+  }
+  
+  /* Button dip
+  - Toggling this class on and off will move it down and up again
+  - The button transition property above determines the speed of the translate (500ms)
+  */
+  .dipped {
+    transform: translateY(5px);
+  }
+  
+  /* Links that open files in the editor */
+  .fileopener {
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 3px solid var(--color-primary);
+    color: var(--color-secondary);
+  }
+  .fileopener:hover {
+    border-bottom: 3px solid var(--color-secondary);
+  }
+  
+  
+  .btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: "Namdhinggo", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #433e61;
+    font-size: 20px;
+    background: #C6BBE2;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 100%;
+  
+  }
+  
+  .btn:hover {
+    background: #a491d3;
+    background-image: -webkit-linear-gradient(top, #a491d3, #8476ad);
+    background-image: -moz-linear-gradient(top, #a491d3, #8476ad);
+    background-image: -ms-linear-gradient(top, #a491d3, #8476ad);
+    background-image: -o-linear-gradient(top, #a491d3, #8476ad);
+    background-image: linear-gradient(to bottom, #a491d3, #8476ad);
+    text-decoration: none;
+  }
+  
+  table {
+    border-spacing: 10px;
+  }
