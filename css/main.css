@@ -19,11 +19,6 @@
   }
 
 
-img {
-    border-radius: 15px;
-    object-fit: cover;
-  }
-  
   body {
     font-family: HK Grotesk;
     background-color: var(--color-bg);
@@ -112,6 +107,16 @@ img {
   .homebtn{
     padding-top: 5%;
   }
+
+  .homebtn1{
+    padding-top: 2%;
+  }
+
+  .test{
+    padding-top: 2%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
   
   /* Very light scaling for our illustration */
   .illustration {
@@ -197,3 +202,16 @@ img {
   table {
     border-spacing: 10px;
   }
+
+
+  .subtitle{
+    color: #635A87;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: regular;
+    font-style: normal;
+    line-height: 105%;
+    margin: 0;
+  }
+
+  
